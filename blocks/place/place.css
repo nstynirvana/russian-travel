@@ -1,0 +1,9 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 984px;
+  height: 660px;
+  gap: 48px 40px;
+  margin-top: 80px;
+}
