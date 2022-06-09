@@ -1,5 +1,30 @@
 .lead {
-    Width: 984px;
-    Height: 1005px;
+    width: 984px;
+    max-width: 100%;
+    height: 1005px;
     margin: 56px 148px 0;
+}
+
+@media screen and (max-width: 1140px) {
+    .lead {
+        margin: 48px 48px 0;
+        width: 928px;
+        height: 962px;
+    }
+
+}
+
+@media screen and (max-width: 984px) {
+    .lead {
+        margin: 48px 0 0;
+        width: 768px;
+        height: 862px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .lead {
+        width: 320px;
+        height: 406px;
+    }
 }

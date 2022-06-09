@@ -14,9 +14,11 @@
 @import url(../../russian-travel/blocks/cover/__overlay/cover__overlay.css);
 @import url(../../russian-travel/blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../../russian-travel/blocks/cover/__title/cover__title.css);
+@import url(../../russian-travel/blocks/cover/__item/cover__item.css);
 
 @import url(../../russian-travel/blocks/footer/__copyright/footer__copyright.css);
 @import url(../../russian-travel/blocks/footer/__link/footer__link.css);
+@import url(../../russian-travel/blocks/footer/__links/footer__links.css);
 
 @import url(../../russian-travel/blocks/header/__lang-link/header__lang-link.css);
 @import url(../../russian-travel/blocks/header/__logo/header__logo.css);
@@ -25,6 +27,7 @@
 @import url(../../russian-travel/blocks/intro/__text/intro__text.css);
 @import url(../../russian-travel/blocks/intro/__title/intro__title.css);
 @import url(../../russian-travel/blocks/intro/__lists/intro__lists.css);
+@import url(../../russian-travel/blocks/intro/__number/intro__number.css);
 
 @import url(../../russian-travel/blocks/lead/__caption/lead__caption.css);
 @import url(../../russian-travel/blocks/lead/__image/lead__image.css);

@@ -1,9 +1,30 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  width: 984px;
-  height: 660px;
+  width: 100%;
   gap: 48px 40px;
-  margin-top: 80px;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1140px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place {
+    column-gap: 28px;
+    margin-top: 73px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place {
+    gap: 32px;
+    margin-top: 50px;
+    margin-bottom: 66px;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
