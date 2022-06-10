@@ -25,6 +25,10 @@
         width: 352px;
         font-size: 16px;
     }
+
+    .place__paragraph:last-child {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 568px) {
@@ -32,5 +36,9 @@
         width: 288px;
         margin-left: 16px;
         margin-right: 16px;
+    }
+
+    .place__paragraph:last-child {
+        margin-bottom: 0;
     }
 }
