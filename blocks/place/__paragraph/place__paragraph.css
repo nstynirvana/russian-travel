@@ -1,5 +1,5 @@
 .place__paragraph {
-    width: 484px;
+    /* width: 484px; */
     font-family: 'Inter', "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -14,23 +14,23 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1024px) {
     .place__paragraph {
-        width: 456px;
+        /* width: 456px; */
     }
 }
 
 @media screen and (max-width: 984px) {
     .place__paragraph {
-        width: 352px;
+        /* width: 352px; */
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 568px) {
     .place__paragraph {
-        width: 288px;
-        margin-left: 16px;
-        margin-right: 16px;
+        /* width: 288px; */
+        margin-left: auto;
+        margin-right: auto;
     }
 }
